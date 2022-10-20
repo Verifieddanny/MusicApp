@@ -1154,6 +1154,16 @@ input {
   .volume_slider {
     width: 6rem;
   }
+  .topNav,
+  .buttomNav {
+    row-gap: 0rem;
+  }
+  .home,
+  .library,
+  .radio,
+  .profile {
+    margin-bottom: 1.8rem;
+  }
 }
 /*mobile devices*/
 
