@@ -558,7 +558,7 @@ input {
   width: 3.06rem;
   height: 3.06rem;
   border-radius: 0.875rem;
-  background-image: url("./playlist/Rectangle\ 26.png");
+  /* background-image: url("./playlist/Rectangle\ 26.png"); */
   background-size: cover;
 }
 
@@ -595,9 +595,9 @@ input {
   background: linear-gradient(
     to right,
     #facd66 0%,
-    rgba(255, 255, 255, 0.04) 1%,
-    rgba(255, 255, 255, 0.04) 40%,
-    rgba(255, 255, 255, 0.04) 100%
+    #00000056 1%,
+    #00000056 40%,
+    #00000056 100%
   );
   cursor: pointer;
   outline: none;
@@ -629,13 +629,14 @@ input {
   height: 0.1875rem;
   width: 10rem;
   border-radius: 2.625rem;
-  background: linear-gradient(
+  /* background: linear-gradient(
     to right,
     #facd66 0%,
-    rgba(255, 255, 255, 0.04) 1%,
-    rgba(255, 255, 255, 0.04) 40%,
-    rgba(255, 255, 255, 0.04) 100%
-  );
+    #00000056 1%,
+    #00000056 40%,
+    #00000056 100%
+  );*/
+  background: #facd66;
   cursor: pointer;
   outline: none;
   transition: background 450ms ease-in;
@@ -893,6 +894,7 @@ input {
 }
 .firstC:hover {
   background: #f7db98;
+  /* color: #00000056; */
 }
 
 .secC {
